@@ -1,0 +1,8 @@
+PREPARAR_UTENSILIOS:
+
+				ld		iy,FRASE_NO_FUNCIONA_LA_ACCION
+				ld		a,31
+				ld		[#7000],a
+				call	PACK_FRASE
+				
+				jp	RUTINA_ESPECIAL_FINAL_DATOS_EXTRA_VISIBLES.rutina_de_acciones
